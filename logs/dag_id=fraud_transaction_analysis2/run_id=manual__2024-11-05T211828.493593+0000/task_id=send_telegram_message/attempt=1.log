@@ -1,0 +1,29 @@
+[2024-11-06T00:18:48.350+0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-06T00:18:48.369+0300] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fraud_transaction_analysis2.send_telegram_message manual__2024-11-05T21:18:28.493593+00:00 [queued]>
+[2024-11-06T00:18:48.377+0300] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fraud_transaction_analysis2.send_telegram_message manual__2024-11-05T21:18:28.493593+00:00 [queued]>
+[2024-11-06T00:18:48.379+0300] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-11-06T00:18:48.398+0300] {taskinstance.py:2888} INFO - Executing <Task(TelegramOperator): send_telegram_message> on 2024-11-05 21:18:28.493593+00:00
+[2024-11-06T00:18:48.404+0300] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=95) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-06T00:18:48.407+0300] {standard_task_runner.py:72} INFO - Started process 97 to run task
+[2024-11-06T00:18:48.406+0300] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'fraud_transaction_analysis2', 'send_telegram_message', 'manual__2024-11-05T21:18:28.493593+00:00', '--job-id', '154', '--raw', '--subdir', 'DAGS_FOLDER/fraud_transaction_analysis2-dag.py', '--cfg-path', '/tmp/tmppc50d1y3']
+[2024-11-06T00:18:48.410+0300] {standard_task_runner.py:105} INFO - Job 154: Subtask send_telegram_message
+[2024-11-06T00:18:48.454+0300] {task_command.py:467} INFO - Running <TaskInstance: fraud_transaction_analysis2.send_telegram_message manual__2024-11-05T21:18:28.493593+00:00 [running]> on host 1168f67a661e
+[2024-11-06T00:18:48.563+0300] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fraud_transaction_analysis2' AIRFLOW_CTX_TASK_ID='send_telegram_message' AIRFLOW_CTX_EXECUTION_DATE='2024-11-05T21:18:28.493593+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-05T21:18:28.493593+00:00'
+[2024-11-06T00:18:48.565+0300] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-11-06T00:18:48.565+0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-11-06T00:18:48.566+0300] {logging_mixin.py:190} INFO - Current task name:send_telegram_message state:running start_date:2024-11-05 21:18:48.371221+00:00
+[2024-11-06T00:18:48.566+0300] {logging_mixin.py:190} INFO - Dag name:fraud_transaction_analysis2 and current dag run status:running
+[2024-11-06T00:18:48.567+0300] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-06T00:18:48.576+0300] {base.py:84} INFO - Retrieving connection 'telegram_default'
+[2024-11-06T00:18:48.915+0300] {_client.py:1773} INFO - HTTP Request: POST https://api.telegram.org/bot7891446819:AAEGULObbcnCnd-J60AxChFllx8pM5Qbp5A/sendMessage "HTTP/1.1 200 OK"
+[2024-11-06T00:18:48.946+0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-06T00:18:48.947+0300] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=fraud_transaction_analysis2, task_id=send_telegram_message, run_id=manual__2024-11-05T21:18:28.493593+00:00, execution_date=20241105T211828, start_date=20241105T211848, end_date=20241105T211848
+[2024-11-06T00:18:48.976+0300] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-11-06T00:18:48.978+0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-11-06T00:18:48.980+0300] {logging_mixin.py:190} INFO - Dag name:fraud_transaction_analysis2 queued_at:2024-11-05 21:18:28.522372+00:00
+[2024-11-06T00:18:48.981+0300] {logging_mixin.py:190} INFO - Task hostname:1168f67a661e operator:TelegramOperator
+[2024-11-06T00:18:49.028+0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-06T00:18:49.075+0300] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-06T00:18:49.081+0300] {local_task_job_runner.py:245} INFO - ::endgroup::

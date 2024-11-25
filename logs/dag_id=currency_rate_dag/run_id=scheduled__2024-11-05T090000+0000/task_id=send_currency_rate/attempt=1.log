@@ -1,0 +1,27 @@
+[2024-11-05T21:00:03.469+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-05T21:00:03.495+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: currency_rate_dag.send_currency_rate scheduled__2024-11-05T09:00:00+00:00 [queued]>
+[2024-11-05T21:00:03.509+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: currency_rate_dag.send_currency_rate scheduled__2024-11-05T09:00:00+00:00 [queued]>
+[2024-11-05T21:00:03.512+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-11-05T21:00:03.538+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): send_currency_rate> on 2024-11-05 09:00:00+00:00
+[2024-11-05T21:00:03.549+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=160) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-05T21:00:03.553+0000] {standard_task_runner.py:72} INFO - Started process 170 to run task
+[2024-11-05T21:00:03.552+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'currency_rate_dag', 'send_currency_rate', 'scheduled__2024-11-05T09:00:00+00:00', '--job-id', '135', '--raw', '--subdir', 'DAGS_FOLDER/telegram-dag.py', '--cfg-path', '/tmp/tmpe_ghr_l3']
+[2024-11-05T21:00:03.554+0000] {standard_task_runner.py:105} INFO - Job 135: Subtask send_currency_rate
+[2024-11-05T21:00:03.649+0000] {task_command.py:467} INFO - Running <TaskInstance: currency_rate_dag.send_currency_rate scheduled__2024-11-05T09:00:00+00:00 [running]> on host fe1d23aa9a61
+[2024-11-05T21:00:03.782+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='currency_rate_dag' AIRFLOW_CTX_TASK_ID='send_currency_rate' AIRFLOW_CTX_EXECUTION_DATE='2024-11-05T09:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-05T09:00:00+00:00'
+[2024-11-05T21:00:03.784+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-11-05T21:00:03.785+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-11-05T21:00:03.785+0000] {logging_mixin.py:190} INFO - Current task name:send_currency_rate state:running start_date:2024-11-05 21:00:03.496455+00:00
+[2024-11-05T21:00:03.786+0000] {logging_mixin.py:190} INFO - Dag name:currency_rate_dag and current dag run status:running
+[2024-11-05T21:00:03.787+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-05T21:00:04.632+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-05T21:00:04.649+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-05T21:00:04.650+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=currency_rate_dag, task_id=send_currency_rate, run_id=scheduled__2024-11-05T09:00:00+00:00, execution_date=20241105T090000, start_date=20241105T210003, end_date=20241105T210004
+[2024-11-05T21:00:04.666+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-11-05T21:00:04.667+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-11-05T21:00:04.668+0000] {logging_mixin.py:190} INFO - Dag name:currency_rate_dag queued_at:2024-11-05 21:00:01.080126+00:00
+[2024-11-05T21:00:04.669+0000] {logging_mixin.py:190} INFO - Task hostname:fe1d23aa9a61 operator:PythonOperator
+[2024-11-05T21:00:04.694+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-05T21:00:04.712+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

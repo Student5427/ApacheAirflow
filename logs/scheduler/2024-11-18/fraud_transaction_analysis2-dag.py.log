@@ -1,0 +1,64 @@
+[2024-11-18T16:55:12.300+0300] {processor.py:186} INFO - Started process (PID=63) to work on /opt/airflow/dags/fraud_transaction_analysis2-dag.py
+[2024-11-18T16:55:12.303+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/fraud_transaction_analysis2-dag.py for tasks to queue
+[2024-11-18T16:55:12.307+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:55:12.306+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fraud_transaction_analysis2-dag.py
+[2024-11-18T16:55:12.351+0300] {processor.py:925} INFO - DAG(s) 'fraud_transaction_analysis2' retrieved from /opt/airflow/dags/fraud_transaction_analysis2-dag.py
+[2024-11-18T16:55:12.426+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:55:12.425+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T16:55:12.479+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:55:12.478+0300] {dag.py:4180} INFO - Setting next_dagrun for fraud_transaction_analysis2 to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T16:55:12.510+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/fraud_transaction_analysis2-dag.py took 0.221 seconds
+[2024-11-18T16:55:35.107+0300] {processor.py:186} INFO - Started process (PID=151) to work on /opt/airflow/dags/fraud_transaction_analysis2-dag.py
+[2024-11-18T16:55:35.108+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/fraud_transaction_analysis2-dag.py for tasks to queue
+[2024-11-18T16:55:35.111+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:55:35.110+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fraud_transaction_analysis2-dag.py
+[2024-11-18T16:55:35.149+0300] {processor.py:925} INFO - DAG(s) 'fraud_transaction_analysis2' retrieved from /opt/airflow/dags/fraud_transaction_analysis2-dag.py
+[2024-11-18T16:55:35.181+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:55:35.180+0300] {dag.py:1660} INFO - Executing dag callback function: <function dag_success_callback at 0x7f5c4bf56d40>
+[2024-11-18T16:55:35.182+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:55:35.182+0300] {baseoperator.py:405} WARNING - TelegramOperator.execute cannot be called outside TaskInstance!
+[2024-11-18T16:55:35.188+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:55:35.188+0300] {base.py:84} INFO - Retrieving connection 'telegram_notifier'
+[2024-11-18T16:55:35.811+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:55:35.811+0300] {_client.py:1773} INFO - HTTP Request: POST https://api.telegram.org/bot7997662746:AAF5-dAcYJmpsa1Pe5cqSENUoRV5D2lj5NA/sendMessage "HTTP/1.1 200 OK"
+[2024-11-18T16:55:35.919+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:55:35.919+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T16:55:35.938+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:55:35.938+0300] {dag.py:4180} INFO - Setting next_dagrun for fraud_transaction_analysis2 to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T16:55:35.965+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/fraud_transaction_analysis2-dag.py took 0.863 seconds
+[2024-11-18T16:56:06.089+0300] {processor.py:186} INFO - Started process (PID=222) to work on /opt/airflow/dags/fraud_transaction_analysis2-dag.py
+[2024-11-18T16:56:06.091+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/fraud_transaction_analysis2-dag.py for tasks to queue
+[2024-11-18T16:56:06.093+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:56:06.093+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fraud_transaction_analysis2-dag.py
+[2024-11-18T16:56:06.178+0300] {processor.py:925} INFO - DAG(s) 'fraud_transaction_analysis2' retrieved from /opt/airflow/dags/fraud_transaction_analysis2-dag.py
+[2024-11-18T16:56:06.216+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:56:06.215+0300] {dag.py:1660} INFO - Executing dag callback function: <function dag_success_callback at 0x7f5c4bf56020>
+[2024-11-18T16:56:06.218+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:56:06.218+0300] {baseoperator.py:405} WARNING - TelegramOperator.execute cannot be called outside TaskInstance!
+[2024-11-18T16:56:06.227+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:56:06.227+0300] {base.py:84} INFO - Retrieving connection 'telegram_notifier'
+[2024-11-18T16:56:06.913+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:56:06.911+0300] {_client.py:1773} INFO - HTTP Request: POST https://api.telegram.org/bot7997662746:AAF5-dAcYJmpsa1Pe5cqSENUoRV5D2lj5NA/sendMessage "HTTP/1.1 200 OK"
+[2024-11-18T16:56:06.975+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:56:06.974+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T16:56:06.996+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:56:06.996+0300] {dag.py:4180} INFO - Setting next_dagrun for fraud_transaction_analysis2 to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T16:56:07.022+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/fraud_transaction_analysis2-dag.py took 0.939 seconds
+[2024-11-18T16:56:37.593+0300] {processor.py:186} INFO - Started process (PID=293) to work on /opt/airflow/dags/fraud_transaction_analysis2-dag.py
+[2024-11-18T16:56:37.594+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/fraud_transaction_analysis2-dag.py for tasks to queue
+[2024-11-18T16:56:37.597+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:56:37.596+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fraud_transaction_analysis2-dag.py
+[2024-11-18T16:56:37.629+0300] {processor.py:925} INFO - DAG(s) 'fraud_transaction_analysis2' retrieved from /opt/airflow/dags/fraud_transaction_analysis2-dag.py
+[2024-11-18T16:56:37.726+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:56:37.726+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T16:56:37.741+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:56:37.741+0300] {dag.py:4180} INFO - Setting next_dagrun for fraud_transaction_analysis2 to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T16:56:37.755+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/fraud_transaction_analysis2-dag.py took 0.166 seconds
+[2024-11-18T16:57:07.865+0300] {processor.py:186} INFO - Started process (PID=362) to work on /opt/airflow/dags/fraud_transaction_analysis2-dag.py
+[2024-11-18T16:57:07.868+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/fraud_transaction_analysis2-dag.py for tasks to queue
+[2024-11-18T16:57:07.873+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:57:07.872+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fraud_transaction_analysis2-dag.py
+[2024-11-18T16:57:07.910+0300] {processor.py:925} INFO - DAG(s) 'fraud_transaction_analysis2' retrieved from /opt/airflow/dags/fraud_transaction_analysis2-dag.py
+[2024-11-18T16:57:07.931+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:57:07.931+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T16:57:07.949+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:57:07.949+0300] {dag.py:4180} INFO - Setting next_dagrun for fraud_transaction_analysis2 to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T16:57:07.984+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/fraud_transaction_analysis2-dag.py took 0.127 seconds
+[2024-11-18T16:57:38.577+0300] {processor.py:186} INFO - Started process (PID=431) to work on /opt/airflow/dags/fraud_transaction_analysis2-dag.py
+[2024-11-18T16:57:38.578+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/fraud_transaction_analysis2-dag.py for tasks to queue
+[2024-11-18T16:57:38.581+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:57:38.581+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fraud_transaction_analysis2-dag.py
+[2024-11-18T16:57:38.625+0300] {processor.py:925} INFO - DAG(s) 'fraud_transaction_analysis2' retrieved from /opt/airflow/dags/fraud_transaction_analysis2-dag.py
+[2024-11-18T16:57:38.644+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:57:38.644+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T16:57:38.667+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:57:38.666+0300] {dag.py:4180} INFO - Setting next_dagrun for fraud_transaction_analysis2 to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T16:57:38.690+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/fraud_transaction_analysis2-dag.py took 0.120 seconds
+[2024-11-18T16:58:09.667+0300] {processor.py:186} INFO - Started process (PID=500) to work on /opt/airflow/dags/fraud_transaction_analysis2-dag.py
+[2024-11-18T16:58:09.668+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/fraud_transaction_analysis2-dag.py for tasks to queue
+[2024-11-18T16:58:09.671+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:58:09.671+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fraud_transaction_analysis2-dag.py
+[2024-11-18T16:58:09.733+0300] {processor.py:925} INFO - DAG(s) 'fraud_transaction_analysis2' retrieved from /opt/airflow/dags/fraud_transaction_analysis2-dag.py
+[2024-11-18T16:58:09.766+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:58:09.766+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T16:58:09.787+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:58:09.787+0300] {dag.py:4180} INFO - Setting next_dagrun for fraud_transaction_analysis2 to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T16:58:09.824+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/fraud_transaction_analysis2-dag.py took 0.165 seconds
+[2024-11-18T16:58:40.350+0300] {processor.py:186} INFO - Started process (PID=569) to work on /opt/airflow/dags/fraud_transaction_analysis2-dag.py
+[2024-11-18T16:58:40.351+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/fraud_transaction_analysis2-dag.py for tasks to queue
+[2024-11-18T16:58:40.355+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:58:40.354+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fraud_transaction_analysis2-dag.py
+[2024-11-18T16:58:40.411+0300] {processor.py:925} INFO - DAG(s) 'fraud_transaction_analysis2' retrieved from /opt/airflow/dags/fraud_transaction_analysis2-dag.py
+[2024-11-18T16:58:40.433+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:58:40.433+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T16:58:40.460+0300] {logging_mixin.py:190} INFO - [2024-11-18T16:58:40.460+0300] {dag.py:4180} INFO - Setting next_dagrun for fraud_transaction_analysis2 to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T16:58:40.504+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/fraud_transaction_analysis2-dag.py took 0.158 seconds

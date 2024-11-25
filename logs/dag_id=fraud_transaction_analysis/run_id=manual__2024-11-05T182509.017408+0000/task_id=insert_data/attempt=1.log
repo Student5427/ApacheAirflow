@@ -1,0 +1,51 @@
+[2024-11-05T18:25:22.143+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-05T18:25:22.158+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fraud_transaction_analysis.insert_data manual__2024-11-05T18:25:09.017408+00:00 [queued]>
+[2024-11-05T18:25:22.165+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fraud_transaction_analysis.insert_data manual__2024-11-05T18:25:09.017408+00:00 [queued]>
+[2024-11-05T18:25:22.165+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-11-05T18:25:22.177+0000] {taskinstance.py:2888} INFO - Executing <Task(PostgresOperator): insert_data> on 2024-11-05 18:25:09.017408+00:00
+[2024-11-05T18:25:22.182+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=87) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-05T18:25:22.184+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'fraud_transaction_analysis', 'insert_data', 'manual__2024-11-05T18:25:09.017408+00:00', '--job-id', '93', '--raw', '--subdir', 'DAGS_FOLDER/fraud_transaktion_analysis-dag.py', '--cfg-path', '/tmp/tmpbv96gck8']
+[2024-11-05T18:25:22.184+0000] {standard_task_runner.py:72} INFO - Started process 89 to run task
+[2024-11-05T18:25:22.185+0000] {standard_task_runner.py:105} INFO - Job 93: Subtask insert_data
+[2024-11-05T18:25:22.237+0000] {task_command.py:467} INFO - Running <TaskInstance: fraud_transaction_analysis.insert_data manual__2024-11-05T18:25:09.017408+00:00 [running]> on host 21d07c241839
+[2024-11-05T18:25:22.352+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fraud_transaction_analysis' AIRFLOW_CTX_TASK_ID='insert_data' AIRFLOW_CTX_EXECUTION_DATE='2024-11-05T18:25:09.017408+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-05T18:25:09.017408+00:00'
+[2024-11-05T18:25:22.355+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-11-05T18:25:22.356+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-11-05T18:25:22.357+0000] {logging_mixin.py:190} INFO - Current task name:insert_data state:running start_date:2024-11-05 18:25:22.159553+00:00
+[2024-11-05T18:25:22.357+0000] {logging_mixin.py:190} INFO - Dag name:fraud_transaction_analysis and current dag run status:running
+[2024-11-05T18:25:22.359+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-05T18:25:22.360+0000] {sql.py:266} INFO - Executing: 
+            INSERT INTO fraud_transactions (transaction_count, total_amount_usd, total_amount_btc, bitcoin_rate)
+            VALUES (
+                492,
+                60127.97,
+                0.8596509704087925,
+                69944.6311
+            );
+        
+[2024-11-05T18:25:22.369+0000] {base.py:84} INFO - Retrieving connection 'postgres_default'
+[2024-11-05T18:25:22.382+0000] {base.py:84} INFO - Retrieving connection 'postgres_default'
+[2024-11-05T18:25:22.388+0000] {sql.py:509} INFO - Running statement: 
+            INSERT INTO fraud_transactions (transaction_count, total_amount_usd, total_amount_btc, bitcoin_rate)
+            VALUES (
+                492,
+                60127.97,
+                0.8596509704087925,
+                69944.6311
+            );
+        , parameters: None
+[2024-11-05T18:25:22.391+0000] {sql.py:518} INFO - Rows affected: 1
+[2024-11-05T18:25:22.405+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-05T18:25:22.407+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=fraud_transaction_analysis, task_id=insert_data, run_id=manual__2024-11-05T18:25:09.017408+00:00, execution_date=20241105T182509, start_date=20241105T182522, end_date=20241105T182522
+[2024-11-05T18:25:22.419+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-11-05T18:25:22.421+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-11-05T18:25:22.422+0000] {logging_mixin.py:190} INFO - Dag name:fraud_transaction_analysis queued_at:2024-11-05 18:25:09.045381+00:00
+[2024-11-05T18:25:22.423+0000] {logging_mixin.py:190} INFO - Task hostname:21d07c241839 operator:PostgresOperator
+[2024-11-05T18:25:22.441+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-05T18:25:22.452+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/models/baseoperator.py:1378: AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+  result = cls.__new__(cls)
+
+[2024-11-05T18:25:22.466+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-05T18:25:22.468+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

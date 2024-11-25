@@ -1,0 +1,154 @@
+[2024-11-22T19:18:38.027+0300] {processor.py:186} INFO - Started process (PID=71) to work on /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:18:38.030+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/telegram-dag.py for tasks to queue
+[2024-11-22T19:18:38.037+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:18:38.035+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:18:38.082+0300] {processor.py:925} INFO - DAG(s) 'currency_rate_dag' retrieved from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:18:38.131+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:18:38.130+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:18:38.173+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:18:38.172+0300] {dag.py:4180} INFO - Setting next_dagrun for currency_rate_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:18:38.204+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/telegram-dag.py took 0.189 seconds
+[2024-11-22T19:19:09.039+0300] {processor.py:186} INFO - Started process (PID=157) to work on /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:19:09.040+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/telegram-dag.py for tasks to queue
+[2024-11-22T19:19:09.043+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:19:09.043+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:19:09.089+0300] {processor.py:925} INFO - DAG(s) 'currency_rate_dag' retrieved from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:19:09.131+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:19:09.130+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:19:09.166+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:19:09.166+0300] {dag.py:4180} INFO - Setting next_dagrun for currency_rate_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:19:09.190+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/telegram-dag.py took 0.162 seconds
+[2024-11-22T19:19:40.250+0300] {processor.py:186} INFO - Started process (PID=232) to work on /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:19:40.251+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/telegram-dag.py for tasks to queue
+[2024-11-22T19:19:40.254+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:19:40.253+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:19:40.336+0300] {processor.py:925} INFO - DAG(s) 'currency_rate_dag' retrieved from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:19:40.369+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:19:40.369+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:19:40.389+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:19:40.389+0300] {dag.py:4180} INFO - Setting next_dagrun for currency_rate_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:19:40.411+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/telegram-dag.py took 0.169 seconds
+[2024-11-22T19:20:11.237+0300] {processor.py:186} INFO - Started process (PID=301) to work on /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:20:11.239+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/telegram-dag.py for tasks to queue
+[2024-11-22T19:20:11.241+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:20:11.241+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:20:11.278+0300] {processor.py:925} INFO - DAG(s) 'currency_rate_dag' retrieved from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:20:11.312+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:20:11.312+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:20:11.333+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:20:11.333+0300] {dag.py:4180} INFO - Setting next_dagrun for currency_rate_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:20:11.362+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/telegram-dag.py took 0.129 seconds
+[2024-11-22T19:20:41.647+0300] {processor.py:186} INFO - Started process (PID=370) to work on /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:20:41.648+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/telegram-dag.py for tasks to queue
+[2024-11-22T19:20:41.652+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:20:41.651+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:20:41.707+0300] {processor.py:925} INFO - DAG(s) 'currency_rate_dag' retrieved from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:20:41.750+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:20:41.749+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:20:41.783+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:20:41.782+0300] {dag.py:4180} INFO - Setting next_dagrun for currency_rate_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:20:41.807+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/telegram-dag.py took 0.165 seconds
+[2024-11-22T19:21:12.215+0300] {processor.py:186} INFO - Started process (PID=440) to work on /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:21:12.216+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/telegram-dag.py for tasks to queue
+[2024-11-22T19:21:12.219+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:21:12.218+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:21:12.251+0300] {processor.py:925} INFO - DAG(s) 'currency_rate_dag' retrieved from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:21:12.280+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:21:12.280+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:21:12.308+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:21:12.308+0300] {dag.py:4180} INFO - Setting next_dagrun for currency_rate_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:21:12.343+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/telegram-dag.py took 0.135 seconds
+[2024-11-22T19:21:43.057+0300] {processor.py:186} INFO - Started process (PID=508) to work on /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:21:43.058+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/telegram-dag.py for tasks to queue
+[2024-11-22T19:21:43.061+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:21:43.061+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:21:43.133+0300] {processor.py:925} INFO - DAG(s) 'currency_rate_dag' retrieved from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:21:43.169+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:21:43.168+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:21:43.193+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:21:43.193+0300] {dag.py:4180} INFO - Setting next_dagrun for currency_rate_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:21:43.223+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/telegram-dag.py took 0.171 seconds
+[2024-11-22T19:22:13.577+0300] {processor.py:186} INFO - Started process (PID=577) to work on /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:22:13.578+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/telegram-dag.py for tasks to queue
+[2024-11-22T19:22:13.580+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:22:13.580+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:22:13.606+0300] {processor.py:925} INFO - DAG(s) 'currency_rate_dag' retrieved from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:22:13.631+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:22:13.630+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:22:13.653+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:22:13.653+0300] {dag.py:4180} INFO - Setting next_dagrun for currency_rate_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:22:13.675+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/telegram-dag.py took 0.104 seconds
+[2024-11-22T19:22:44.580+0300] {processor.py:186} INFO - Started process (PID=646) to work on /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:22:44.581+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/telegram-dag.py for tasks to queue
+[2024-11-22T19:22:44.583+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:22:44.583+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:22:44.624+0300] {processor.py:925} INFO - DAG(s) 'currency_rate_dag' retrieved from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:22:44.663+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:22:44.662+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:22:44.689+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:22:44.689+0300] {dag.py:4180} INFO - Setting next_dagrun for currency_rate_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:22:44.716+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/telegram-dag.py took 0.141 seconds
+[2024-11-22T19:23:15.260+0300] {processor.py:186} INFO - Started process (PID=715) to work on /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:23:15.262+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/telegram-dag.py for tasks to queue
+[2024-11-22T19:23:15.266+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:23:15.265+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:23:15.325+0300] {processor.py:925} INFO - DAG(s) 'currency_rate_dag' retrieved from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:23:15.365+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:23:15.364+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:23:15.388+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:23:15.387+0300] {dag.py:4180} INFO - Setting next_dagrun for currency_rate_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:23:15.410+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/telegram-dag.py took 0.187 seconds
+[2024-11-22T19:23:46.243+0300] {processor.py:186} INFO - Started process (PID=784) to work on /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:23:46.245+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/telegram-dag.py for tasks to queue
+[2024-11-22T19:23:46.249+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:23:46.248+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:23:46.300+0300] {processor.py:925} INFO - DAG(s) 'currency_rate_dag' retrieved from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:23:46.329+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:23:46.329+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:23:46.356+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:23:46.356+0300] {dag.py:4180} INFO - Setting next_dagrun for currency_rate_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:23:46.384+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/telegram-dag.py took 0.146 seconds
+[2024-11-22T19:24:16.835+0300] {processor.py:186} INFO - Started process (PID=853) to work on /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:24:16.836+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/telegram-dag.py for tasks to queue
+[2024-11-22T19:24:16.839+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:24:16.838+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:24:16.870+0300] {processor.py:925} INFO - DAG(s) 'currency_rate_dag' retrieved from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:24:16.894+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:24:16.894+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:24:16.914+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:24:16.914+0300] {dag.py:4180} INFO - Setting next_dagrun for currency_rate_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:24:16.934+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/telegram-dag.py took 0.104 seconds
+[2024-11-22T19:24:47.253+0300] {processor.py:186} INFO - Started process (PID=922) to work on /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:24:47.254+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/telegram-dag.py for tasks to queue
+[2024-11-22T19:24:47.260+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:24:47.259+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:24:47.320+0300] {processor.py:925} INFO - DAG(s) 'currency_rate_dag' retrieved from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:24:47.366+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:24:47.366+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:24:47.398+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:24:47.397+0300] {dag.py:4180} INFO - Setting next_dagrun for currency_rate_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:24:47.421+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/telegram-dag.py took 0.179 seconds
+[2024-11-22T19:25:17.794+0300] {processor.py:186} INFO - Started process (PID=991) to work on /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:25:17.795+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/telegram-dag.py for tasks to queue
+[2024-11-22T19:25:17.797+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:25:17.797+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:25:17.843+0300] {processor.py:925} INFO - DAG(s) 'currency_rate_dag' retrieved from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:25:17.877+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:25:17.877+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:25:17.902+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:25:17.902+0300] {dag.py:4180} INFO - Setting next_dagrun for currency_rate_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:25:17.920+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/telegram-dag.py took 0.133 seconds
+[2024-11-22T19:25:48.414+0300] {processor.py:186} INFO - Started process (PID=1060) to work on /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:25:48.416+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/telegram-dag.py for tasks to queue
+[2024-11-22T19:25:48.418+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:25:48.417+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:25:48.445+0300] {processor.py:925} INFO - DAG(s) 'currency_rate_dag' retrieved from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:25:48.474+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:25:48.474+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:25:48.495+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:25:48.495+0300] {dag.py:4180} INFO - Setting next_dagrun for currency_rate_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:25:48.526+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/telegram-dag.py took 0.117 seconds
+[2024-11-22T19:26:18.780+0300] {processor.py:186} INFO - Started process (PID=1129) to work on /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:26:18.781+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/telegram-dag.py for tasks to queue
+[2024-11-22T19:26:18.784+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:26:18.783+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:26:18.817+0300] {processor.py:925} INFO - DAG(s) 'currency_rate_dag' retrieved from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:26:18.840+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:26:18.840+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:26:18.861+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:26:18.861+0300] {dag.py:4180} INFO - Setting next_dagrun for currency_rate_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:26:18.887+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/telegram-dag.py took 0.113 seconds
+[2024-11-22T19:26:49.982+0300] {processor.py:186} INFO - Started process (PID=1198) to work on /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:26:49.983+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/telegram-dag.py for tasks to queue
+[2024-11-22T19:26:49.985+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:26:49.985+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:26:50.022+0300] {processor.py:925} INFO - DAG(s) 'currency_rate_dag' retrieved from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:26:50.051+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:26:50.051+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:26:50.078+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:26:50.078+0300] {dag.py:4180} INFO - Setting next_dagrun for currency_rate_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:26:50.096+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/telegram-dag.py took 0.119 seconds
+[2024-11-22T19:27:20.487+0300] {processor.py:186} INFO - Started process (PID=1267) to work on /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:27:20.487+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/telegram-dag.py for tasks to queue
+[2024-11-22T19:27:20.489+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:27:20.489+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:27:20.509+0300] {processor.py:925} INFO - DAG(s) 'currency_rate_dag' retrieved from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:27:20.538+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:27:20.538+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:27:20.563+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:27:20.563+0300] {dag.py:4180} INFO - Setting next_dagrun for currency_rate_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:27:20.601+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/telegram-dag.py took 0.120 seconds
+[2024-11-22T19:27:51.086+0300] {processor.py:186} INFO - Started process (PID=1336) to work on /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:27:51.087+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/telegram-dag.py for tasks to queue
+[2024-11-22T19:27:51.091+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:27:51.090+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:27:51.149+0300] {processor.py:925} INFO - DAG(s) 'currency_rate_dag' retrieved from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:27:51.192+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:27:51.192+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:27:51.215+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:27:51.215+0300] {dag.py:4180} INFO - Setting next_dagrun for currency_rate_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:27:51.236+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/telegram-dag.py took 0.157 seconds
+[2024-11-22T19:28:22.198+0300] {processor.py:186} INFO - Started process (PID=1405) to work on /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:28:22.200+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/telegram-dag.py for tasks to queue
+[2024-11-22T19:28:22.203+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:28:22.202+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:28:22.245+0300] {processor.py:925} INFO - DAG(s) 'currency_rate_dag' retrieved from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:28:22.281+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:28:22.281+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:28:22.317+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:28:22.317+0300] {dag.py:4180} INFO - Setting next_dagrun for currency_rate_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:28:22.348+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/telegram-dag.py took 0.157 seconds
+[2024-11-22T19:28:53.066+0300] {processor.py:186} INFO - Started process (PID=1474) to work on /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:28:53.068+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/telegram-dag.py for tasks to queue
+[2024-11-22T19:28:53.071+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:28:53.071+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:28:53.117+0300] {processor.py:925} INFO - DAG(s) 'currency_rate_dag' retrieved from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:28:53.149+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:28:53.149+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:28:53.170+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:28:53.169+0300] {dag.py:4180} INFO - Setting next_dagrun for currency_rate_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:28:53.189+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/telegram-dag.py took 0.128 seconds
+[2024-11-22T19:29:23.738+0300] {processor.py:186} INFO - Started process (PID=1543) to work on /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:29:23.739+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/telegram-dag.py for tasks to queue
+[2024-11-22T19:29:23.742+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:29:23.741+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:29:23.763+0300] {processor.py:925} INFO - DAG(s) 'currency_rate_dag' retrieved from /opt/airflow/dags/telegram-dag.py
+[2024-11-22T19:29:23.789+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:29:23.788+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:29:23.810+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:29:23.810+0300] {dag.py:4180} INFO - Setting next_dagrun for currency_rate_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:29:23.837+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/telegram-dag.py took 0.105 seconds

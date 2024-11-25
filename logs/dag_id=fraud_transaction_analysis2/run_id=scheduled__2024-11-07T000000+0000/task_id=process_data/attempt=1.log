@@ -1,0 +1,31 @@
+[2024-11-08T18:11:25.570+0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-08T18:11:25.667+0300] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fraud_transaction_analysis2.process_data scheduled__2024-11-07T00:00:00+00:00 [queued]>
+[2024-11-08T18:11:25.908+0300] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fraud_transaction_analysis2.process_data scheduled__2024-11-07T00:00:00+00:00 [queued]>
+[2024-11-08T18:11:25.910+0300] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-11-08T18:11:26.159+0300] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): process_data> on 2024-11-07 00:00:00+00:00
+[2024-11-08T18:11:26.201+0300] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=75) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-08T18:11:26.216+0300] {standard_task_runner.py:72} INFO - Started process 110 to run task
+[2024-11-08T18:11:26.236+0300] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'fraud_transaction_analysis2', 'process_data', 'scheduled__2024-11-07T00:00:00+00:00', '--job-id', '211', '--raw', '--subdir', 'DAGS_FOLDER/fraud_transaction_analysis2-dag.py', '--cfg-path', '/tmp/tmp_46pzgd8']
+[2024-11-08T18:11:26.243+0300] {standard_task_runner.py:105} INFO - Job 211: Subtask process_data
+[2024-11-08T18:11:26.512+0300] {task_command.py:467} INFO - Running <TaskInstance: fraud_transaction_analysis2.process_data scheduled__2024-11-07T00:00:00+00:00 [running]> on host 1168f67a661e
+[2024-11-08T18:11:26.776+0300] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fraud_transaction_analysis2' AIRFLOW_CTX_TASK_ID='process_data' AIRFLOW_CTX_EXECUTION_DATE='2024-11-07T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-07T00:00:00+00:00'
+[2024-11-08T18:11:26.778+0300] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-11-08T18:11:26.780+0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-11-08T18:11:26.785+0300] {logging_mixin.py:190} INFO - Current task name:process_data state:running start_date:2024-11-08 15:11:25.775543+00:00
+[2024-11-08T18:11:26.786+0300] {logging_mixin.py:190} INFO - Dag name:fraud_transaction_analysis2 and current dag run status:running
+[2024-11-08T18:11:26.786+0300] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-08T18:11:31.923+0300] {python.py:240} INFO - Done. Returned value was: (492, 60127.97)
+[2024-11-08T18:11:31.986+0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-08T18:11:31.987+0300] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=fraud_transaction_analysis2, task_id=process_data, run_id=scheduled__2024-11-07T00:00:00+00:00, execution_date=20241107T000000, start_date=20241108T151125, end_date=20241108T151131
+[2024-11-08T18:11:32.038+0300] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-11-08T18:11:32.040+0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-11-08T18:11:32.041+0300] {logging_mixin.py:190} INFO - Dag name:fraud_transaction_analysis2 queued_at:2024-11-08 15:11:18.401151+00:00
+[2024-11-08T18:11:32.042+0300] {logging_mixin.py:190} INFO - Task hostname:1168f67a661e operator:PythonOperator
+[2024-11-08T18:11:32.092+0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-08T18:11:32.113+0300] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/models/baseoperator.py:1378: AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+  result = cls.__new__(cls)
+
+[2024-11-08T18:11:32.158+0300] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-08T18:11:32.162+0300] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,35 @@
+[2024-11-05T20:48:31.691+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-05T20:48:31.704+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fraud_transaction_analysis2.create_telegram_message manual__2024-11-05T20:48:17.949134+00:00 [queued]>
+[2024-11-05T20:48:31.712+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fraud_transaction_analysis2.create_telegram_message manual__2024-11-05T20:48:17.949134+00:00 [queued]>
+[2024-11-05T20:48:31.713+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-11-05T20:48:31.725+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): create_telegram_message> on 2024-11-05 20:48:17.949134+00:00
+[2024-11-05T20:48:31.731+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=86) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-05T20:48:31.733+0000] {standard_task_runner.py:72} INFO - Started process 88 to run task
+[2024-11-05T20:48:31.733+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'fraud_transaction_analysis2', 'create_telegram_message', 'manual__2024-11-05T20:48:17.949134+00:00', '--job-id', '122', '--raw', '--subdir', 'DAGS_FOLDER/fraud_transaction_analysis2-dag.py', '--cfg-path', '/tmp/tmpm8sltpe9']
+[2024-11-05T20:48:31.734+0000] {standard_task_runner.py:105} INFO - Job 122: Subtask create_telegram_message
+[2024-11-05T20:48:31.783+0000] {task_command.py:467} INFO - Running <TaskInstance: fraud_transaction_analysis2.create_telegram_message manual__2024-11-05T20:48:17.949134+00:00 [running]> on host 21d07c241839
+[2024-11-05T20:48:31.889+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fraud_transaction_analysis2' AIRFLOW_CTX_TASK_ID='create_telegram_message' AIRFLOW_CTX_EXECUTION_DATE='2024-11-05T20:48:17.949134+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-05T20:48:17.949134+00:00'
+[2024-11-05T20:48:31.890+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-11-05T20:48:31.891+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-11-05T20:48:31.891+0000] {logging_mixin.py:190} INFO - Current task name:create_telegram_message state:running start_date:2024-11-05 20:48:31.705489+00:00
+[2024-11-05T20:48:31.892+0000] {logging_mixin.py:190} INFO - Dag name:fraud_transaction_analysis2 and current dag run status:running
+[2024-11-05T20:48:31.892+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-05T20:48:31.893+0000] {python.py:240} INFO - Done. Returned value was: Количество мошеннических транзакций: 492
+Сумма в долларах: 60127.97 USD
+Сумма в биткоинах: 0.86331938 BTC
+Курс биткоина: 69647.4232 USD
+Дата получения курса: 2024-11-05 20:48:31
+[2024-11-05T20:48:31.912+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-05T20:48:31.912+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=fraud_transaction_analysis2, task_id=create_telegram_message, run_id=manual__2024-11-05T20:48:17.949134+00:00, execution_date=20241105T204817, start_date=20241105T204831, end_date=20241105T204831
+[2024-11-05T20:48:31.920+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-11-05T20:48:31.920+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-11-05T20:48:31.921+0000] {logging_mixin.py:190} INFO - Dag name:fraud_transaction_analysis2 queued_at:2024-11-05 20:48:18.315978+00:00
+[2024-11-05T20:48:31.921+0000] {logging_mixin.py:190} INFO - Task hostname:21d07c241839 operator:PythonOperator
+[2024-11-05T20:48:31.949+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-05T20:48:31.958+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/models/baseoperator.py:1378: AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+  result = cls.__new__(cls)
+
+[2024-11-05T20:48:31.972+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-05T20:48:31.975+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

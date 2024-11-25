@@ -1,0 +1,154 @@
+[2024-11-22T19:18:37.783+0300] {processor.py:186} INFO - Started process (PID=69) to work on /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:18:37.784+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/textMessageTG-dag.py for tasks to queue
+[2024-11-22T19:18:37.788+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:18:37.787+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:18:37.832+0300] {processor.py:925} INFO - DAG(s) 'telegram_text_dag' retrieved from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:18:37.884+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:18:37.883+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:18:37.919+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:18:37.918+0300] {dag.py:4180} INFO - Setting next_dagrun for telegram_text_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:18:37.950+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/textMessageTG-dag.py took 0.176 seconds
+[2024-11-22T19:19:08.746+0300] {processor.py:186} INFO - Started process (PID=155) to work on /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:19:08.747+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/textMessageTG-dag.py for tasks to queue
+[2024-11-22T19:19:08.750+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:19:08.750+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:19:08.831+0300] {processor.py:925} INFO - DAG(s) 'telegram_text_dag' retrieved from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:19:08.876+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:19:08.875+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:19:08.909+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:19:08.908+0300] {dag.py:4180} INFO - Setting next_dagrun for telegram_text_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:19:08.952+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/textMessageTG-dag.py took 0.210 seconds
+[2024-11-22T19:19:39.890+0300] {processor.py:186} INFO - Started process (PID=230) to work on /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:19:39.891+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/textMessageTG-dag.py for tasks to queue
+[2024-11-22T19:19:39.894+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:19:39.893+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:19:39.947+0300] {processor.py:925} INFO - DAG(s) 'telegram_text_dag' retrieved from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:19:39.977+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:19:39.977+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:19:39.996+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:19:39.996+0300] {dag.py:4180} INFO - Setting next_dagrun for telegram_text_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:19:40.015+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/textMessageTG-dag.py took 0.132 seconds
+[2024-11-22T19:20:10.921+0300] {processor.py:186} INFO - Started process (PID=299) to work on /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:20:10.923+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/textMessageTG-dag.py for tasks to queue
+[2024-11-22T19:20:10.925+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:20:10.925+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:20:10.968+0300] {processor.py:925} INFO - DAG(s) 'telegram_text_dag' retrieved from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:20:11.003+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:20:11.003+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:20:11.033+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:20:11.032+0300] {dag.py:4180} INFO - Setting next_dagrun for telegram_text_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:20:11.057+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/textMessageTG-dag.py took 0.141 seconds
+[2024-11-22T19:20:41.350+0300] {processor.py:186} INFO - Started process (PID=368) to work on /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:20:41.351+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/textMessageTG-dag.py for tasks to queue
+[2024-11-22T19:20:41.354+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:20:41.353+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:20:41.402+0300] {processor.py:925} INFO - DAG(s) 'telegram_text_dag' retrieved from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:20:41.442+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:20:41.442+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:20:41.469+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:20:41.468+0300] {dag.py:4180} INFO - Setting next_dagrun for telegram_text_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:20:41.493+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/textMessageTG-dag.py took 0.148 seconds
+[2024-11-22T19:21:11.870+0300] {processor.py:186} INFO - Started process (PID=437) to work on /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:21:11.871+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/textMessageTG-dag.py for tasks to queue
+[2024-11-22T19:21:11.874+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:21:11.874+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:21:11.902+0300] {processor.py:925} INFO - DAG(s) 'telegram_text_dag' retrieved from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:21:11.943+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:21:11.942+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:21:11.969+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:21:11.968+0300] {dag.py:4180} INFO - Setting next_dagrun for telegram_text_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:21:11.999+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/textMessageTG-dag.py took 0.136 seconds
+[2024-11-22T19:21:42.868+0300] {processor.py:186} INFO - Started process (PID=506) to work on /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:21:42.869+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/textMessageTG-dag.py for tasks to queue
+[2024-11-22T19:21:42.872+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:21:42.871+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:21:42.914+0300] {processor.py:925} INFO - DAG(s) 'telegram_text_dag' retrieved from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:21:42.945+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:21:42.944+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:21:42.965+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:21:42.965+0300] {dag.py:4180} INFO - Setting next_dagrun for telegram_text_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:21:42.988+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/textMessageTG-dag.py took 0.125 seconds
+[2024-11-22T19:22:13.304+0300] {processor.py:186} INFO - Started process (PID=575) to work on /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:22:13.305+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/textMessageTG-dag.py for tasks to queue
+[2024-11-22T19:22:13.308+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:22:13.307+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:22:13.339+0300] {processor.py:925} INFO - DAG(s) 'telegram_text_dag' retrieved from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:22:13.367+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:22:13.366+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:22:13.389+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:22:13.389+0300] {dag.py:4180} INFO - Setting next_dagrun for telegram_text_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:22:13.409+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/textMessageTG-dag.py took 0.111 seconds
+[2024-11-22T19:22:44.341+0300] {processor.py:186} INFO - Started process (PID=644) to work on /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:22:44.342+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/textMessageTG-dag.py for tasks to queue
+[2024-11-22T19:22:44.344+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:22:44.344+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:22:44.380+0300] {processor.py:925} INFO - DAG(s) 'telegram_text_dag' retrieved from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:22:44.406+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:22:44.406+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:22:44.427+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:22:44.427+0300] {dag.py:4180} INFO - Setting next_dagrun for telegram_text_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:22:44.446+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/textMessageTG-dag.py took 0.110 seconds
+[2024-11-22T19:23:14.748+0300] {processor.py:186} INFO - Started process (PID=713) to work on /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:23:14.749+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/textMessageTG-dag.py for tasks to queue
+[2024-11-22T19:23:14.751+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:23:14.751+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:23:14.840+0300] {processor.py:925} INFO - DAG(s) 'telegram_text_dag' retrieved from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:23:14.893+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:23:14.892+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:23:14.919+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:23:14.918+0300] {dag.py:4180} INFO - Setting next_dagrun for telegram_text_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:23:14.942+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/textMessageTG-dag.py took 0.203 seconds
+[2024-11-22T19:23:45.898+0300] {processor.py:186} INFO - Started process (PID=782) to work on /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:23:45.900+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/textMessageTG-dag.py for tasks to queue
+[2024-11-22T19:23:45.905+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:23:45.905+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:23:45.967+0300] {processor.py:925} INFO - DAG(s) 'telegram_text_dag' retrieved from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:23:46.000+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:23:46.000+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:23:46.020+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:23:46.019+0300] {dag.py:4180} INFO - Setting next_dagrun for telegram_text_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:23:46.038+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/textMessageTG-dag.py took 0.151 seconds
+[2024-11-22T19:24:16.583+0300] {processor.py:186} INFO - Started process (PID=851) to work on /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:24:16.585+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/textMessageTG-dag.py for tasks to queue
+[2024-11-22T19:24:16.587+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:24:16.587+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:24:16.629+0300] {processor.py:925} INFO - DAG(s) 'telegram_text_dag' retrieved from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:24:16.653+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:24:16.653+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:24:16.676+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:24:16.676+0300] {dag.py:4180} INFO - Setting next_dagrun for telegram_text_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:24:16.693+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/textMessageTG-dag.py took 0.116 seconds
+[2024-11-22T19:24:46.939+0300] {processor.py:186} INFO - Started process (PID=920) to work on /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:24:46.940+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/textMessageTG-dag.py for tasks to queue
+[2024-11-22T19:24:46.943+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:24:46.942+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:24:46.975+0300] {processor.py:925} INFO - DAG(s) 'telegram_text_dag' retrieved from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:24:46.999+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:24:46.998+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:24:47.018+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:24:47.018+0300] {dag.py:4180} INFO - Setting next_dagrun for telegram_text_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:24:47.038+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/textMessageTG-dag.py took 0.104 seconds
+[2024-11-22T19:25:17.531+0300] {processor.py:186} INFO - Started process (PID=989) to work on /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:25:17.532+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/textMessageTG-dag.py for tasks to queue
+[2024-11-22T19:25:17.535+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:25:17.535+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:25:17.570+0300] {processor.py:925} INFO - DAG(s) 'telegram_text_dag' retrieved from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:25:17.595+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:25:17.595+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:25:17.618+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:25:17.617+0300] {dag.py:4180} INFO - Setting next_dagrun for telegram_text_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:25:17.642+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/textMessageTG-dag.py took 0.116 seconds
+[2024-11-22T19:25:48.256+0300] {processor.py:186} INFO - Started process (PID=1058) to work on /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:25:48.257+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/textMessageTG-dag.py for tasks to queue
+[2024-11-22T19:25:48.260+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:25:48.259+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:25:48.295+0300] {processor.py:925} INFO - DAG(s) 'telegram_text_dag' retrieved from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:25:48.318+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:25:48.318+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:25:48.339+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:25:48.339+0300] {dag.py:4180} INFO - Setting next_dagrun for telegram_text_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:25:48.366+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/textMessageTG-dag.py took 0.116 seconds
+[2024-11-22T19:26:18.520+0300] {processor.py:186} INFO - Started process (PID=1127) to work on /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:26:18.521+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/textMessageTG-dag.py for tasks to queue
+[2024-11-22T19:26:18.524+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:26:18.523+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:26:18.554+0300] {processor.py:925} INFO - DAG(s) 'telegram_text_dag' retrieved from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:26:18.578+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:26:18.577+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:26:18.598+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:26:18.598+0300] {dag.py:4180} INFO - Setting next_dagrun for telegram_text_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:26:18.618+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/textMessageTG-dag.py took 0.106 seconds
+[2024-11-22T19:26:49.685+0300] {processor.py:186} INFO - Started process (PID=1196) to work on /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:26:49.687+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/textMessageTG-dag.py for tasks to queue
+[2024-11-22T19:26:49.690+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:26:49.689+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:26:49.838+0300] {processor.py:925} INFO - DAG(s) 'telegram_text_dag' retrieved from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:26:49.882+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:26:49.882+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:26:49.909+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:26:49.908+0300] {dag.py:4180} INFO - Setting next_dagrun for telegram_text_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:26:49.930+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/textMessageTG-dag.py took 0.251 seconds
+[2024-11-22T19:27:20.217+0300] {processor.py:186} INFO - Started process (PID=1265) to work on /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:27:20.218+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/textMessageTG-dag.py for tasks to queue
+[2024-11-22T19:27:20.220+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:27:20.220+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:27:20.258+0300] {processor.py:925} INFO - DAG(s) 'telegram_text_dag' retrieved from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:27:20.297+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:27:20.297+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:27:20.332+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:27:20.332+0300] {dag.py:4180} INFO - Setting next_dagrun for telegram_text_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:27:20.359+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/textMessageTG-dag.py took 0.148 seconds
+[2024-11-22T19:27:50.505+0300] {processor.py:186} INFO - Started process (PID=1334) to work on /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:27:50.506+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/textMessageTG-dag.py for tasks to queue
+[2024-11-22T19:27:50.509+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:27:50.508+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:27:50.619+0300] {processor.py:925} INFO - DAG(s) 'telegram_text_dag' retrieved from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:27:50.683+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:27:50.683+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:27:50.711+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:27:50.711+0300] {dag.py:4180} INFO - Setting next_dagrun for telegram_text_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:27:50.736+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/textMessageTG-dag.py took 0.236 seconds
+[2024-11-22T19:28:20.980+0300] {processor.py:186} INFO - Started process (PID=1403) to work on /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:28:20.981+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/textMessageTG-dag.py for tasks to queue
+[2024-11-22T19:28:20.984+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:28:20.984+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:28:21.053+0300] {processor.py:925} INFO - DAG(s) 'telegram_text_dag' retrieved from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:28:21.077+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:28:21.077+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:28:21.097+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:28:21.097+0300] {dag.py:4180} INFO - Setting next_dagrun for telegram_text_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:28:21.116+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/textMessageTG-dag.py took 0.141 seconds
+[2024-11-22T19:28:51.806+0300] {processor.py:186} INFO - Started process (PID=1472) to work on /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:28:51.808+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/textMessageTG-dag.py for tasks to queue
+[2024-11-22T19:28:51.812+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:28:51.811+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:28:51.846+0300] {processor.py:925} INFO - DAG(s) 'telegram_text_dag' retrieved from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:28:51.887+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:28:51.886+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:28:51.920+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:28:51.920+0300] {dag.py:4180} INFO - Setting next_dagrun for telegram_text_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:28:51.947+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/textMessageTG-dag.py took 0.153 seconds
+[2024-11-22T19:29:22.577+0300] {processor.py:186} INFO - Started process (PID=1541) to work on /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:29:22.578+0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/textMessageTG-dag.py for tasks to queue
+[2024-11-22T19:29:22.580+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:29:22.580+0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:29:22.600+0300] {processor.py:925} INFO - DAG(s) 'telegram_text_dag' retrieved from /opt/airflow/dags/textMessageTG-dag.py
+[2024-11-22T19:29:22.622+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:29:22.622+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-22T19:29:22.644+0300] {logging_mixin.py:190} INFO - [2024-11-22T19:29:22.644+0300] {dag.py:4180} INFO - Setting next_dagrun for telegram_text_dag to 2024-11-09 00:00:00+00:00, run_after=2024-11-09 12:00:00+00:00
+[2024-11-22T19:29:22.674+0300] {processor.py:208} INFO - Processing /opt/airflow/dags/textMessageTG-dag.py took 0.102 seconds

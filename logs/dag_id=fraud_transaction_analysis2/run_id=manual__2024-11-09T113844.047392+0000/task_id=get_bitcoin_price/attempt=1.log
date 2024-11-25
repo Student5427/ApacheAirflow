@@ -1,0 +1,34 @@
+[2024-11-09T14:38:46.454+0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-09T14:38:46.470+0300] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fraud_transaction_analysis2.get_bitcoin_price manual__2024-11-09T11:38:44.047392+00:00 [queued]>
+[2024-11-09T14:38:46.479+0300] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fraud_transaction_analysis2.get_bitcoin_price manual__2024-11-09T11:38:44.047392+00:00 [queued]>
+[2024-11-09T14:38:46.480+0300] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-11-09T14:38:46.495+0300] {taskinstance.py:2888} INFO - Executing <Task(HttpOperator): get_bitcoin_price> on 2024-11-09 11:38:44.047392+00:00
+[2024-11-09T14:38:46.503+0300] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=373) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-09T14:38:46.505+0300] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'fraud_transaction_analysis2', 'get_bitcoin_price', 'manual__2024-11-09T11:38:44.047392+00:00', '--job-id', '258', '--raw', '--subdir', 'DAGS_FOLDER/fraud_transaction_analysis2-dag.py', '--cfg-path', '/tmp/tmph0vxjnu2']
+[2024-11-09T14:38:46.506+0300] {standard_task_runner.py:72} INFO - Started process 377 to run task
+[2024-11-09T14:38:46.506+0300] {standard_task_runner.py:105} INFO - Job 258: Subtask get_bitcoin_price
+[2024-11-09T14:38:46.561+0300] {task_command.py:467} INFO - Running <TaskInstance: fraud_transaction_analysis2.get_bitcoin_price manual__2024-11-09T11:38:44.047392+00:00 [running]> on host 1168f67a661e
+[2024-11-09T14:38:46.647+0300] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fraud_transaction_analysis2' AIRFLOW_CTX_TASK_ID='get_bitcoin_price' AIRFLOW_CTX_EXECUTION_DATE='2024-11-09T11:38:44.047392+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-09T11:38:44.047392+00:00'
+[2024-11-09T14:38:46.648+0300] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-11-09T14:38:46.649+0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-11-09T14:38:46.650+0300] {logging_mixin.py:190} INFO - Current task name:get_bitcoin_price state:running start_date:2024-11-09 11:38:46.471696+00:00
+[2024-11-09T14:38:46.650+0300] {logging_mixin.py:190} INFO - Dag name:fraud_transaction_analysis2 and current dag run status:running
+[2024-11-09T14:38:46.651+0300] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-09T14:38:46.652+0300] {http.py:173} INFO - Calling HTTP method
+[2024-11-09T14:38:46.661+0300] {base.py:84} INFO - Retrieving connection 'coindesk_api'
+[2024-11-09T14:38:46.671+0300] {base.py:84} INFO - Retrieving connection 'coindesk_api'
+[2024-11-09T14:38:47.098+0300] {http.py:222} INFO - {"time":{"updated":"Nov 9, 2024 11:38:50 UTC","updatedISO":"2024-11-09T11:38:50+00:00","updateduk":"Nov 9, 2024 at 11:38 GMT"},"disclaimer":"This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org","chartName":"Bitcoin","bpi":{"USD":{"code":"USD","symbol":"&#36;","rate":"76,431.395","description":"United States Dollar","rate_float":76431.3948},"GBP":{"code":"GBP","symbol":"&pound;","rate":"59,168.906","description":"British Pound Sterling","rate_float":59168.9057},"EUR":{"code":"EUR","symbol":"&euro;","rate":"71,307.893","description":"Euro","rate_float":71307.8926}}}
+[2024-11-09T14:38:47.135+0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-09T14:38:47.135+0300] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=fraud_transaction_analysis2, task_id=get_bitcoin_price, run_id=manual__2024-11-09T11:38:44.047392+00:00, execution_date=20241109T113844, start_date=20241109T113846, end_date=20241109T113847
+[2024-11-09T14:38:47.148+0300] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-11-09T14:38:47.148+0300] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-11-09T14:38:47.149+0300] {logging_mixin.py:190} INFO - Dag name:fraud_transaction_analysis2 queued_at:2024-11-09 11:38:44.068819+00:00
+[2024-11-09T14:38:47.149+0300] {logging_mixin.py:190} INFO - Task hostname:1168f67a661e operator:HttpOperator
+[2024-11-09T14:38:47.164+0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-09T14:38:47.174+0300] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/models/baseoperator.py:1378: AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+  result = cls.__new__(cls)
+
+[2024-11-09T14:38:47.191+0300] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-09T14:38:47.193+0300] {local_task_job_runner.py:245} INFO - ::endgroup::

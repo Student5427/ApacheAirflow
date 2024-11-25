@@ -1,0 +1,159 @@
+[2024-11-04T20:17:04.514+0000] {processor.py:186} INFO - Started process (PID=54) to work on /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:17:04.515+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/backup_files_dag.py for tasks to queue
+[2024-11-04T20:17:04.519+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:17:04.519+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:17:04.563+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/backup_files_dag.py:16 SyntaxWarning: invalid escape sequence '\D'
+[2024-11-04T20:17:04.574+0000] {processor.py:925} INFO - DAG(s) 'backup_files_dag' retrieved from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:17:04.714+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:17:04.713+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:backup_files_dag
+[2024-11-04T20:17:04.726+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:17:04.726+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:backup_files_dag
+[2024-11-04T20:17:04.735+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:17:04.734+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:backup_files_dag
+[2024-11-04T20:17:04.745+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:17:04.745+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:backup_files_dag
+[2024-11-04T20:17:04.754+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:17:04.754+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:backup_files_dag
+[2024-11-04T20:17:04.763+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:17:04.763+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:backup_files_dag
+[2024-11-04T20:17:04.774+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:17:04.774+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:backup_files_dag
+[2024-11-04T20:17:04.775+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:17:04.775+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T20:17:04.792+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:17:04.792+0000] {dag.py:3262} INFO - Creating ORM DAG for backup_files_dag
+[2024-11-04T20:17:04.806+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:17:04.806+0000] {dag.py:4180} INFO - Setting next_dagrun for backup_files_dag to 2024-11-01 00:00:00+00:00, run_after=2024-11-02 00:00:00+00:00
+[2024-11-04T20:17:04.825+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/backup_files_dag.py took 0.319 seconds
+[2024-11-04T20:17:35.578+0000] {processor.py:186} INFO - Started process (PID=120) to work on /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:17:35.579+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/backup_files_dag.py for tasks to queue
+[2024-11-04T20:17:35.585+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:17:35.583+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:17:35.694+0000] {processor.py:925} INFO - DAG(s) 'backup_files_dag' retrieved from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:17:35.723+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:17:35.723+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T20:17:35.744+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:17:35.744+0000] {dag.py:4180} INFO - Setting next_dagrun for backup_files_dag to 2024-11-04 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-11-04T20:17:35.782+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/backup_files_dag.py took 0.231 seconds
+[2024-11-04T20:18:06.061+0000] {processor.py:186} INFO - Started process (PID=186) to work on /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:18:06.063+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/backup_files_dag.py for tasks to queue
+[2024-11-04T20:18:06.065+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:18:06.064+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:18:06.104+0000] {processor.py:925} INFO - DAG(s) 'backup_files_dag' retrieved from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:18:06.124+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:18:06.124+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T20:18:06.145+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:18:06.145+0000] {dag.py:4180} INFO - Setting next_dagrun for backup_files_dag to 2024-11-04 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-11-04T20:18:06.178+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/backup_files_dag.py took 0.124 seconds
+[2024-11-04T20:18:36.877+0000] {processor.py:186} INFO - Started process (PID=252) to work on /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:18:36.878+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/backup_files_dag.py for tasks to queue
+[2024-11-04T20:18:36.880+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:18:36.880+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:18:36.906+0000] {processor.py:925} INFO - DAG(s) 'backup_files_dag' retrieved from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:18:36.926+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:18:36.926+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T20:18:36.949+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:18:36.949+0000] {dag.py:4180} INFO - Setting next_dagrun for backup_files_dag to 2024-11-04 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-11-04T20:18:36.980+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/backup_files_dag.py took 0.108 seconds
+[2024-11-04T20:19:07.760+0000] {processor.py:186} INFO - Started process (PID=318) to work on /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:19:07.762+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/backup_files_dag.py for tasks to queue
+[2024-11-04T20:19:07.766+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:19:07.766+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:19:07.802+0000] {processor.py:925} INFO - DAG(s) 'backup_files_dag' retrieved from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:19:07.830+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:19:07.830+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T20:19:07.866+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:19:07.866+0000] {dag.py:4180} INFO - Setting next_dagrun for backup_files_dag to 2024-11-04 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-11-04T20:19:07.896+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/backup_files_dag.py took 0.147 seconds
+[2024-11-04T20:19:38.068+0000] {processor.py:186} INFO - Started process (PID=385) to work on /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:19:38.071+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/backup_files_dag.py for tasks to queue
+[2024-11-04T20:19:38.075+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:19:38.075+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:19:38.108+0000] {processor.py:925} INFO - DAG(s) 'backup_files_dag' retrieved from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:19:38.133+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:19:38.133+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T20:19:38.162+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:19:38.162+0000] {dag.py:4180} INFO - Setting next_dagrun for backup_files_dag to 2024-11-04 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-11-04T20:19:38.187+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/backup_files_dag.py took 0.131 seconds
+[2024-11-04T20:20:08.991+0000] {processor.py:186} INFO - Started process (PID=457) to work on /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:20:08.994+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/backup_files_dag.py for tasks to queue
+[2024-11-04T20:20:08.997+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:20:08.997+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:20:09.033+0000] {processor.py:925} INFO - DAG(s) 'backup_files_dag' retrieved from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:20:09.052+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:20:09.052+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T20:20:09.076+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:20:09.076+0000] {dag.py:4180} INFO - Setting next_dagrun for backup_files_dag to 2024-11-04 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-11-04T20:20:09.098+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/backup_files_dag.py took 0.115 seconds
+[2024-11-04T20:20:39.344+0000] {processor.py:186} INFO - Started process (PID=523) to work on /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:20:39.345+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/backup_files_dag.py for tasks to queue
+[2024-11-04T20:20:39.348+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:20:39.347+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:20:39.404+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/backup_files_dag.py:16 SyntaxWarning: invalid escape sequence '\D'
+[2024-11-04T20:20:39.407+0000] {processor.py:925} INFO - DAG(s) 'backup_files_dag' retrieved from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:20:39.423+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:20:39.423+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T20:20:39.441+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:20:39.441+0000] {dag.py:4180} INFO - Setting next_dagrun for backup_files_dag to 2024-11-04 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-11-04T20:20:39.468+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/backup_files_dag.py took 0.130 seconds
+[2024-11-04T20:20:40.482+0000] {processor.py:186} INFO - Started process (PID=533) to work on /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:20:40.483+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/backup_files_dag.py for tasks to queue
+[2024-11-04T20:20:40.485+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:20:40.485+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:20:40.515+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/backup_files_dag.py:16 SyntaxWarning: invalid escape sequence '\D'
+[2024-11-04T20:20:40.518+0000] {processor.py:925} INFO - DAG(s) 'backup_files_dag' retrieved from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:20:40.537+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:20:40.536+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T20:20:40.559+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:20:40.559+0000] {dag.py:4180} INFO - Setting next_dagrun for backup_files_dag to 2024-11-04 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-11-04T20:20:40.584+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/backup_files_dag.py took 0.109 seconds
+[2024-11-04T20:20:48.373+0000] {processor.py:186} INFO - Started process (PID=584) to work on /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:20:48.375+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/backup_files_dag.py for tasks to queue
+[2024-11-04T20:20:48.379+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:20:48.378+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:20:48.467+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/backup_files_dag.py:16 SyntaxWarning: invalid escape sequence '\D'
+[2024-11-04T20:20:48.472+0000] {processor.py:925} INFO - DAG(s) 'backup_files_dag' retrieved from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:20:48.583+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:20:48.583+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T20:20:48.600+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:20:48.600+0000] {dag.py:4180} INFO - Setting next_dagrun for backup_files_dag to 2024-11-04 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-11-04T20:20:48.633+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/backup_files_dag.py took 0.269 seconds
+[2024-11-04T20:21:19.609+0000] {processor.py:186} INFO - Started process (PID=650) to work on /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:21:19.610+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/backup_files_dag.py for tasks to queue
+[2024-11-04T20:21:19.614+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:21:19.613+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:21:19.661+0000] {processor.py:925} INFO - DAG(s) 'backup_files_dag' retrieved from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:21:19.677+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:21:19.677+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T20:21:19.699+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:21:19.699+0000] {dag.py:4180} INFO - Setting next_dagrun for backup_files_dag to 2024-11-04 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-11-04T20:21:19.720+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/backup_files_dag.py took 0.132 seconds
+[2024-11-04T20:21:50.622+0000] {processor.py:186} INFO - Started process (PID=716) to work on /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:21:50.624+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/backup_files_dag.py for tasks to queue
+[2024-11-04T20:21:50.627+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:21:50.627+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:21:50.650+0000] {processor.py:925} INFO - DAG(s) 'backup_files_dag' retrieved from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:21:50.669+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:21:50.669+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T20:21:50.693+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:21:50.692+0000] {dag.py:4180} INFO - Setting next_dagrun for backup_files_dag to 2024-11-04 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-11-04T20:21:50.725+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/backup_files_dag.py took 0.108 seconds
+[2024-11-04T20:22:21.172+0000] {processor.py:186} INFO - Started process (PID=787) to work on /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:22:21.173+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/backup_files_dag.py for tasks to queue
+[2024-11-04T20:22:21.177+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:22:21.177+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:22:21.212+0000] {processor.py:925} INFO - DAG(s) 'backup_files_dag' retrieved from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:22:21.229+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:22:21.229+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T20:22:21.251+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:22:21.251+0000] {dag.py:4180} INFO - Setting next_dagrun for backup_files_dag to 2024-11-04 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-11-04T20:22:21.272+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/backup_files_dag.py took 0.107 seconds
+[2024-11-04T20:22:51.404+0000] {processor.py:186} INFO - Started process (PID=853) to work on /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:22:51.405+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/backup_files_dag.py for tasks to queue
+[2024-11-04T20:22:51.408+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:22:51.408+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:22:51.442+0000] {processor.py:925} INFO - DAG(s) 'backup_files_dag' retrieved from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:22:51.458+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:22:51.458+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T20:22:51.478+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:22:51.478+0000] {dag.py:4180} INFO - Setting next_dagrun for backup_files_dag to 2024-11-04 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-11-04T20:22:51.501+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/backup_files_dag.py took 0.102 seconds
+[2024-11-04T20:25:37.776+0000] {processor.py:186} INFO - Started process (PID=72) to work on /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:25:37.778+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/backup_files_dag.py for tasks to queue
+[2024-11-04T20:25:37.783+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:25:37.782+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:25:37.832+0000] {processor.py:925} INFO - DAG(s) 'backup_files_dag' retrieved from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:25:37.908+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:25:37.907+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T20:25:37.957+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:25:37.956+0000] {dag.py:4180} INFO - Setting next_dagrun for backup_files_dag to 2024-11-04 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-11-04T20:25:37.990+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/backup_files_dag.py took 0.224 seconds
+[2024-11-04T20:26:08.623+0000] {processor.py:186} INFO - Started process (PID=139) to work on /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:26:08.624+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/backup_files_dag.py for tasks to queue
+[2024-11-04T20:26:08.629+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:26:08.628+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:26:08.664+0000] {processor.py:925} INFO - DAG(s) 'backup_files_dag' retrieved from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:26:08.682+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:26:08.682+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T20:26:08.719+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:26:08.719+0000] {dag.py:4180} INFO - Setting next_dagrun for backup_files_dag to 2024-11-04 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-11-04T20:26:08.751+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/backup_files_dag.py took 0.134 seconds
+[2024-11-04T20:26:17.798+0000] {processor.py:186} INFO - Started process (PID=199) to work on /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:26:17.800+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/backup_files_dag.py for tasks to queue
+[2024-11-04T20:26:17.805+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:26:17.804+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:26:17.941+0000] {processor.py:925} INFO - DAG(s) 'backup_files_dag' retrieved from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:26:18.033+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:26:18.033+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T20:26:18.054+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:26:18.054+0000] {dag.py:4180} INFO - Setting next_dagrun for backup_files_dag to 2024-11-04 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-11-04T20:26:18.125+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/backup_files_dag.py took 0.338 seconds
+[2024-11-04T20:27:17.909+0000] {processor.py:186} INFO - Started process (PID=58) to work on /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:27:17.912+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/backup_files_dag.py for tasks to queue
+[2024-11-04T20:27:17.922+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:27:17.922+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:27:18.034+0000] {processor.py:925} INFO - DAG(s) 'backup_files_dag' retrieved from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:27:18.122+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:27:18.121+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T20:27:18.193+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:27:18.193+0000] {dag.py:4180} INFO - Setting next_dagrun for backup_files_dag to 2024-11-04 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-11-04T20:27:18.270+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/backup_files_dag.py took 0.384 seconds
+[2024-11-04T20:27:48.434+0000] {processor.py:186} INFO - Started process (PID=124) to work on /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:27:48.435+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/backup_files_dag.py for tasks to queue
+[2024-11-04T20:27:48.438+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:27:48.437+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:27:48.467+0000] {processor.py:925} INFO - DAG(s) 'backup_files_dag' retrieved from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:27:48.483+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:27:48.483+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T20:27:48.501+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:27:48.501+0000] {dag.py:4180} INFO - Setting next_dagrun for backup_files_dag to 2024-11-04 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-11-04T20:27:48.534+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/backup_files_dag.py took 0.105 seconds
+[2024-11-04T20:28:18.911+0000] {processor.py:186} INFO - Started process (PID=190) to work on /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:28:18.914+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/backup_files_dag.py for tasks to queue
+[2024-11-04T20:28:18.920+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:28:18.919+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:28:18.962+0000] {processor.py:925} INFO - DAG(s) 'backup_files_dag' retrieved from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:28:18.999+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:28:18.998+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T20:28:19.037+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:28:19.037+0000] {dag.py:4180} INFO - Setting next_dagrun for backup_files_dag to 2024-11-04 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-11-04T20:28:19.082+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/backup_files_dag.py took 0.180 seconds
+[2024-11-04T20:28:49.717+0000] {processor.py:186} INFO - Started process (PID=255) to work on /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:28:49.718+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/backup_files_dag.py for tasks to queue
+[2024-11-04T20:28:49.721+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:28:49.721+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:28:49.756+0000] {processor.py:925} INFO - DAG(s) 'backup_files_dag' retrieved from /opt/airflow/dags/backup_files_dag.py
+[2024-11-04T20:28:49.774+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:28:49.774+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T20:28:49.795+0000] {logging_mixin.py:190} INFO - [2024-11-04T20:28:49.795+0000] {dag.py:4180} INFO - Setting next_dagrun for backup_files_dag to 2024-11-04 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-11-04T20:28:49.830+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/backup_files_dag.py took 0.120 seconds
